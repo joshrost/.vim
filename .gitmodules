@@ -1,26 +1,18 @@
-# Colorscheme
-[submodule "pack/colorschemes/onedark.vim"]
-	path = pack/colorschemes/onedark.vim
-	url = https://github.com/joshdick/onedark.vim
 [submodule "pack/colorschemes/opt/onedark.vim"]
 	path = pack/colorschemes/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
-# Syntax highlight
 [submodule "pack/default/start/vim-polyglot"]
 	path = pack/default/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
-# Bar
 [submodule "pack/general/start/vim-airline"]
 	path = pack/general/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "pack/general/start/vim-airline-themes"]
 	path = pack/general/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-# Commenting plugin
 [submodule "pack/general/start/nerdcommenter"]
 	path = pack/general/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
-# Directory structure
 [submodule "pack/general/start/nerdtree"]
 	path = pack/general/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
@@ -51,9 +43,6 @@
 [submodule "pack/general/start/vim-table-mode"]
 	path = pack/general/start/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode
-[submodule "pack/programming/start/plantuml-syntax"]
-	path = pack/programming/start/plantuml-syntax
-	url = https://github.com/aklt/plantuml-syntax
 [submodule "pack/general/start/fzf.vim"]
 	path = pack/general/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
@@ -66,15 +55,3 @@
 [submodule "pack/writing/start/limelight.vim"]
 	path = pack/writing/start/limelight.vim
 	url = https://github.com/junegunn/limelight.vim
-[submodule "pack/general/start/localvimrc"]
-	path = pack/general/start/localvimrc
-	url = https://github.com/vim-scripts/localvimrc
-[submodule "pack/general/start/vim-toml"]
-	path = pack/general/start/vim-toml
-	url = https://github.com/cespare/vim-toml
-[submodule "pack/general/start/file-line"]
-	path = pack/general/start/file-line
-	url = https://github.com/bogado/file-line
-[submodule "pack/programming/start/xml.vim"]
-	path = pack/programming/start/xml.vim
-	url = https://github.com/othree/xml.vim
