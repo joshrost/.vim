@@ -4,7 +4,7 @@ Personal configuration for vim inspired inspired by [Timo Furrer](https://github
 ## Installation
 
 ### Clone repo
-```zshh
+```zsh
 git clone https://github.com/joshrost/.vim   ~/.vim
 cd ~/.vim
 
