@@ -8,8 +8,7 @@
 "
 "
 "           Josh's vim configuration.
-"       https://github.com/timofurrer/.vim
-"
+"       https://github.com/joshrost/.vim
 "
 
 " disable compatibility mode to improve vim experience
@@ -30,10 +29,7 @@ syntax on
 " clear all highlighting
 highlight clear
 
-
 "let g:javascript_plugin_jsdoc = 1
-
-
 
 " detect filetypes
 filetype plugin indent on
@@ -61,10 +57,6 @@ set fileformat=unix
 " use utf-8 encoding
 set encoding=utf-8
 
-" turn relative line numbers on
-set relativenumber
-set rnu
-
 " cursor line highlighting
 hi CursorLine   cterm=NONE ctermfg=white guifg=white
 hi CursorColumn cterm=NONE ctermfg=white guifg=white
@@ -88,7 +80,7 @@ set completeopt=menuone,menu,longest,preview
 " }}}
 
 " language settings
-set spelllang=en_us
+set spelllang=en_us,de_ch
 
 " ignore some file endings for various searches
 set wildignore+=*.o,*.lo,*.la,*.obj,.git,*.pyc,*.so,*/.git/*,*.zip,*.tar.gz,*__pycache__/*,
@@ -121,10 +113,10 @@ set matchpairs+=<:>
 
 " general Key Bindings {{{
     " Navigate buffers {{{
-        map  <a-left>  :bp<CR>
-        imap <a-left>  <ESC>:bp<CR>
-        map  <a-right> :bn<CR>
-        imap <a-right> <ESC>:bn<CR>
+        map  <C-j>       :bp<CR>
+        imap <C-j>  <ESC>:bp<CR>
+        map  <C-k>      :bn<CR>
+        imap <C-k> <ESC>:bn<CR>
     " }}}
 
     " Line numbering {{{
