@@ -28,9 +28,6 @@
 [submodule "pack/general/start/ctrlp.vim"]
 	path = pack/general/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "pack/python/start/python-mode"]
-	path = pack/python/start/python-mode
-	url = https://github.com/python-mode/python-mode
 [submodule "pack/general/start/vim-fugitive"]
 	path = pack/general/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive

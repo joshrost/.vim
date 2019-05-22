@@ -3,7 +3,12 @@ Personal configuration for vim inspired inspired by [Timo Furrer](https://github
 
 ## Installation
 
-### Clone repo
+### dependencies 
+```zsh
+sudo apt install vim fonts-powerline
+```
+
+### clone repo
 ```zsh
 git clone https://github.com/joshrost/.vim   ~/.vim
 cd ~/.vim
