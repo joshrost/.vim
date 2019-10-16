@@ -5,7 +5,7 @@ Personal configuration for vim inspired inspired by [Timo Furrer](https://github
 
 ### dependencies 
 ```zsh
-sudo apt install vim fonts-powerline
+sudo apt install vim fonts-powerline python3-dev
 ```
 
 ### clone repo
